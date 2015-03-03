@@ -12,7 +12,11 @@ vim 플러그인을 쉽게 설치하기 위한 프로젝트.
 
     git clone https://github.com/ygpark/vimconfig.git ~/vimconfig
     ~/vimconfig/install.sh
+--> Above is Orignal Code
 
+
+    git clone https://github.com/ipbanks/vimconfig.git ~/vimconfig
+    ~/vimconfig/install.sh
 
 #디렉토리 구조
 
