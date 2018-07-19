@@ -9,7 +9,7 @@ echo "심볼릭 릭크 생성..."
 ln -sfv ~/vimconfig/vimrc ~/.vimrc
 
 echo "vundle 다운로드중..."
-git clone https://github.com/ipbanks/vundle.git ~/.vim/bundle/vundle
-
+#git clone https://github.com/ipbanks/vundle.git ~/.vim/bundle/vundle
+git clone https://github.com/ipbanks/Vundle.vim.git ~/.vim/bundle/vundle
 echo "vundle 설치중..."
 vi -c :BundleInstall -c :qa
