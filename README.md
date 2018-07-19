@@ -9,11 +9,9 @@ vim 플러그인을 쉽게 설치하기 위한 프로젝트.
 
 
 #설치하기
-
-===================================================================
     git clone https://github.com/ygpark/vimconfig.git ~/vimconfig
     ~/vimconfig/install.sh
-===================================================================
+
 --> Above is Orignal Code
 
 
