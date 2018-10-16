@@ -256,7 +256,8 @@ function! LoadCscope()
   endif
 endfunction
 au BufEnter /* call LoadCscope()
- 
+"Cscope 절대경로로 찾게 한다.
+set csre 
 "현재 디렉토리부터 root 디렉토리까지 tags를 찾는다.
 set tags=tags;/
 
