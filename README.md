@@ -32,6 +32,7 @@ A) The fix was then to edit the ~/.vim/plugin/cscope_maps.vim file
  ~/.vim/bundle/cscope_macros.vim/plugin/cscope_macros.vim 에서 아래와 같이 고쳤는데.. 
  set nocscopeverbose 와 set cscopeverbose 가 두번불리네? 그래도 에러메세지 없으니.. -_-;; 
  
+ 
  40     " add any cscope database in current directory
  41     if filereadable("cscope.out")
  42         set nocscopeverbose
