@@ -34,6 +34,7 @@ A) The fix was then to edit the ~/.vim/plugin/cscope_maps.vim file
  
  
  40     " add any cscope database in current directory 
+ 
  41     if filereadable("cscope.out") 
  42         set nocscopeverbose 
  43         cs add cscope.out 
