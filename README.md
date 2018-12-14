@@ -64,7 +64,10 @@ A) The fix was then to edit the ~/.vim/plugin/cscope_maps.vim file
  
  50     set cscopeverbose 
  
-  
+ Q) Cygwin 에선?
+ 
+ A) curl 을 깔렴 vbundle 
+ 
 
 #디렉토리 구조
 
